@@ -1,10 +1,9 @@
 module.exports = {
-  siteTitle: "Hi! I'm Francisco!",
+  siteTitle: 'Emiliano Leite',
   siteDescription: `Create your online curriculum in just a few minutes with this starter`,
   keyWords: ['gatsbyjs', 'react', 'curriculum'],
-  authorName: 'Francisco Santos',
-  twitterUsername: '_franciscodf',
-  githubUsername: 'santosfrancisco',
+  authorName: 'Emiliano Leite',
+  githubUsername: 'emilianoLeite',
   authorAvatar: '/images/avatar.jpeg',
   authorDescription: `Developer, passionate about what I do. Always interested in how the sites were made, I started to study HTML by hobby. <br />
     In 2012 I started working as a support technician and I approached the developers.
@@ -30,6 +29,14 @@ module.exports = {
     {
       name: 'React',
       level: 60,
+    },
+    {
+      name: 'react-native',
+      level: 60,
+    },
+    {
+      name: 'Ruby',
+      level: 90,
     },
     {
       name: 'Git',
@@ -87,7 +94,7 @@ module.exports = {
   icon: 'src/assets/gatsby-icon.png',
   headerLinks: [
     {
-      label: 'Francisco Santos',
+      label: 'Emiliano Leite',
       url: '/',
     },
   ],
