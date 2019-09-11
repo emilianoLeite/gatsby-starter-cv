@@ -21,7 +21,7 @@ const Separator = styled.hr`
 class Home extends React.Component {
   render() {
     const title = siteConfig.siteTitle
-    const { keywords } = siteConfig
+    const { keywords, authorAvatar } = siteConfig
     return (
       <Layout location={this.props.location}>
         <SEO title={title} keywords={keywords} />
@@ -34,8 +34,8 @@ class Home extends React.Component {
               <Col xs={4} className="avatar">
                 <img
                   className="avatar__image"
-                  src="/images/avatar.jpeg"
-                  alt="user avatar"
+                  src={authorAvatar}
+                  alt="emiliano's avatar"
                 />
                 <div className="social">
                   {siteConfig.social.github && (

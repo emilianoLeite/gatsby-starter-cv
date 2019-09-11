@@ -4,7 +4,7 @@ module.exports = {
   keyWords: ['gatsbyjs', 'react', 'curriculum'],
   authorName: 'Emiliano Leite',
   githubUsername: 'emilianoLeite',
-  authorAvatar: '/images/avatar.jpeg',
+  authorAvatar: '/images/emiliano.jpg',
   authorDescription: `Developer, passionate about what I do. Always interested in how the sites were made, I started to study HTML by hobby. <br />
     In 2012 I started working as a support technician and I approached the developers.
     In 2015, I started to study C # and started to contribute with the team giving maintenance in an application in C # and .NET. <br />
